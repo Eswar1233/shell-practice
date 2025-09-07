@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# -gt --> greater than
+# -lt --> less than
+# -eq --> equal
+# -ne --> not equal
+
 USERID=$(id -u)
 
 if [ $USERID -ne 0 ]
@@ -12,3 +17,12 @@ fi
 
 
 dnf install mysql -y
+
+
+if [ $? -eq 0]
+then 
+    echo "Installing MySQL is ....  SUCCESS"
+else
+    echo "Installing MySQL is ... FAILURE"
+    #exit 1
+fi
