@@ -1,4 +1,5 @@
 #!/bin/bash
+#!/bin/bash
 
 # -gt --> greater than
 # -lt --> less than
@@ -31,7 +32,5 @@ then
         exit 1
     fi
 else
-    echo "Mysqk is already installed...Nothing to do"
+    echo "Mysql is already installed...Nothing to do"
 fi
-
-
