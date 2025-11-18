@@ -8,3 +8,10 @@ do
     echo $a
     a=`expr $a + 1`
 done
+
+
+#read file code         (IFS = INTERNAL FIELD SEPERATOR)
+while IFS= read -r line
+do
+    echo $line
+done < 19-delete-old-logs.sh
