@@ -13,3 +13,4 @@ then
 else
   echo "Given number $NUMBER is nt less than 10"  
 fi
+

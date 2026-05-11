@@ -5,7 +5,7 @@
 # -lt --> less than
 # -eq --> equal
 # -ne --> not equal
-
+#sudo id 
 USERID=$(id -u)
 
 if [ $USERID -ne 0 ]
